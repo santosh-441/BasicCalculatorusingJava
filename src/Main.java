@@ -11,13 +11,12 @@ public class Main {
         Scanner scan=new Scanner(System.in);
         System.out.print("Enter your operation: ");
         int value=scan.nextInt();
-
         System.out.print("Enter your first number: ");
         double a=scan.nextInt();
         System.out.print("Enter your second number: ");
         double b=scan.nextInt();
-
         switch (value){
+
             case 1:
                 double sum = a + b;
                 System.out.println("Addition of first and second number is "+ sum);
@@ -42,10 +41,9 @@ public class Main {
                     System.out.println("Exception: Cannot divide by zero");
                 }
                 break;
+            default:
+                System.out.println("This calculator can perform only ( + - * / ) operations");
         }
-
-
-
 
     }
 }

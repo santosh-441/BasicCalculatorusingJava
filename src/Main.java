@@ -12,9 +12,9 @@ public class Main {
         System.out.print("Enter your operation: ");
         int value=scan.nextInt();
         System.out.print("Enter your first number: ");
-        double a=scan.nextInt();
+        double a=scan.nextDouble();
         System.out.print("Enter your second number: ");
-        double b=scan.nextInt();
+        double b=scan.nextDouble();
         switch (value){
 
             case 1:
